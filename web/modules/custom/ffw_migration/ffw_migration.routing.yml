@@ -1,0 +1,7 @@
+ffw_migration.config_form:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\ffw_migration\Controller\HelloController::content'
+    _title: 'FFW Migration'
+  requirements:
+    _permission: 'access content'

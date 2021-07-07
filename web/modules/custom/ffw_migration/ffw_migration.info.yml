@@ -1,0 +1,5 @@
+name: FFW Migration
+type: module
+description: Provides functionality to migrate content.
+package: Custom
+core_version_requirement: ^8.9 || ^9
