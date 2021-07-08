@@ -15,9 +15,13 @@ class HelloController {
    */
   public function content(): array {
     // Returns the custom string.
+
+
+
+
     return [
       '#type' => 'markup',
-      '#markup' => $this->t('Hello, World!'),
+      '#markup' => t('Hello, World!'),
     ];
   }
 
