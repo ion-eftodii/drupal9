@@ -17,7 +17,7 @@ class HelloController {
     // Returns the custom string.
     return [
       '#type' => 'markup',
-      '#markup' => t('Hello, world!'),
+      '#markup' => t('Hello, world!!!!'),
     ];
   }
 
