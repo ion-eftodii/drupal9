@@ -142,10 +142,8 @@ $databases['default']['default'] = [
 // Workaround for permission issues with NFS shares
 $settings['file_chmod_directory'] = 0777;
 $settings['file_chmod_file'] = 0666;
-
 # File system settings.
 $config['system.file']['path']['temporary'] = '/tmp';
-
 // Reverse proxy configuration (Docksal vhost-proxy)
 if (PHP_SAPI !== 'cli') {
 	$settings['reverse_proxy'] = TRUE;
