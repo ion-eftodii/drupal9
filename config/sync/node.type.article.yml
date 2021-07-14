@@ -1,4 +1,4 @@
-uuid: 71142841-d56d-4e64-830b-b49679c815b8
+uuid: 338adb40-c47d-42b8-b311-6fd52e7f04a1
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,9 @@ dependencies:
     - menu_ui
 third_party_settings:
   menu_ui:
-    available_menus: {  }
-    parent: ''
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
 name: Article
@@ -16,4 +17,4 @@ description: 'Use <em>articles</em> for time-sensitive content like news, press 
 help: ''
 new_revision: false
 preview_mode: 1
-display_submitted: true
+display_submitted: false

@@ -1,0 +1,19 @@
+name: Stable Subtheme
+type: theme
+base theme: stable
+description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+package: Custom
+version: VERSION
+libraries:
+  - stable_subtheme/global-styling
+
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar: 'Sidebar first'
+  footer: 'Footer'
